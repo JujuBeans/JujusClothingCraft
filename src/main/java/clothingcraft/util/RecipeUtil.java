@@ -25,7 +25,7 @@ public class RecipeUtil {
 	 */
 	public static Object[] createRecipeObject(Item[] items) {
 		Object[] result = null;
-		if (items != null && items.length > 0 && items.length < 9) {
+		if (items != null && items.length > 0 && items.length < 10) {
 			String row1 = "XXX", row2 = "XXX", row3 = "XXX";
 			result = new Object[]{row1,row2,row3};
 			
