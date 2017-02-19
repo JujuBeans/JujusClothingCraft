@@ -1,0 +1,325 @@
+itemGroup.tabClothingCraftCore=Juju's ClothingCraft Core
+itemGroup.tabClothingCraftMaterials=Juju's ClothingCraft Materials
+itemGroup.tabClothingCraftAccessories=Juju's ClothingCraft Accessories
+itemGroup.tabClothingCraftTools=Juju's ClothingCraft Tools
+itemGroup.tabClothingCraftWardrobe=Juju's ClothingCraft Wardrobe
+
+item.cotton_seeds.name=Cotton Seeds
+item.cotton_harvested.name=Cotton
+tile.cottonplant.name=Cotton Plant
+tile.cottonwildplant.name=Cotton Plant, Wild
+block.cotton_bale.name=Cotton Bale
+tile.cotton_bale.name=Cotton Bale
+item.cotton_fabric.name=Cotton Fabric
+tile.cotton_fabric_bundle.name=Cotton Fabric Bundle
+
+item.cottonArmorHelmet.name=Cotton Armor Crown
+item.cottonArmorChestPlate.name=Cotton Armor Chest Plate
+item.cottonArmorLeggings.name=Cotton Armor Leggings
+item.cottonArmorBoots.name=Cotton Armor Boots
+
+tile.halite_ore.name=Halite Ore
+item.rock_salt.name=Rock Salt
+item.halite_ingot.name=Halite Ingot
+tile.halite_block.name=Halite Block
+item.halite_sword.name=Weapon: Halite Sword
+item.halite_axe.name=Tool: Halite Axe
+item.halite_hoe.name=Tool: Halite Hoe
+item.halite_pickaxe.name=Tool: Halite Pickaxe
+item.halite_shovel.name=Tool: Halite Shovel
+
+item.dye_black.name=Dye, Black
+item.fabric_black.name=Fabric, Black
+
+item.dye_red.name=Dye, Red
+item.fabric_red.name=Fabric, Red
+
+item.dye_green.name=Dye, Green
+item.fabric_green.name=Fabric, Green
+
+item.dye_brown.name=Dye, Brown
+item.fabric_brown.name=Fabric, Brown
+
+item.dye_bluedark.name=Dye, Blue
+item.fabric_bluedark.name=Fabric, Blue
+ 
+item.dye_purple.name=Dye, Purple
+item.fabric_purple.name=Fabric, Purple
+
+item.dye_cyan.name=Dye, Cyan
+item.fabric_cyan.name=Fabric, Cyan
+
+item.dye_graylight.name=Dye, Gray (Light)
+item.fabric_graylight.name=Fabric, Gray (Light)
+
+item.dye_graydark.name=Dye, Gray (Dark)
+item.fabric_graydark.name=Fabric, Gray (Dark)
+
+item.dye_pink.name=Dye, Pink
+item.fabric_pink.name=Fabric, Pink
+
+item.dye_pinklight.name=Dye, Pink (Light)
+item.fabric_pinklight.name=Fabric, Pink (Light)
+
+item.dye_lime.name=Dye, Lime
+item.fabric_lime.name=Fabric, Lime
+
+item.dye_yellow.name=Dye, Yellow
+item.fabric_yellow.name=Fabric, Yellow
+
+item.dye_bluelight.name=Dye, Blue (Light)
+item.fabric_bluelight.name=Fabric, Blue (Light)
+
+item.dye_magenta.name=Dye, Magenta
+item.fabric_magenta.name=Fabric, Magenta
+
+item.dye_orange.name=Dye, Orange
+item.fabric_orange.name=Fabric, Orange
+
+item.dye_white.name=Dye, White 
+item.fabric_white.name=Fabric, White
+
+item.dye_galaxy.name=Dye, Galaxy
+item.fabric_galaxy.name=Fabric, Galaxy
+
+item.dye_glowstone.name=Dye, Glowstone
+item.fabric_glowstone.name=Fabric, Glowstone
+
+item.dye_lavender.name=Dye, Lavendar
+item.fabric_lavender.name=Fabric, Lavendar
+
+item.dye_mint.name=Dye, Mint
+item.fabric_mint.name=Fabric, Mint
+
+item.dye_coral.name=Dye, Coral
+item.fabric_coral.name=Fabric, Coral
+
+item.dye_rainbow.name=Dye, Rainbow
+item.fabric_rainbow.name=Fabric, Rainbow
+
+item.dye_redstone.name=Dye, Redstone
+item.fabric_redstone.name=Fabric, Redstone
+
+item.dye_tan.name=Dye, Tan
+item.fabric_tan.name=Fabric, Tan
+
+item.tools_scissors.name=Tool: Sewing Scissors
+item.tools_needle_thread.name=Tool: Needle and Thread
+item.tools_measuring_tape.name=Tool: Measuring Tape
+item.tools_pincushion.name=Tool: Pincushion
+item.tools_knitting_needles.name=Tool: Knitting Needles
+
+item.pattern_casual_helm.name=Pattern: Casual-wear, Head
+item.pattern_casual_chest.name=Pattern: Casual-wear, Shirt
+item.pattern_casual_pants.name=Pattern: Casual-wear, Pants
+item.pattern_casual_boots.name=Pattern: Casual-wear, Boots
+
+item.pattern_career_helm.name=Pattern: Career-wear, Head
+item.pattern_career_chest.name=Pattern: Career-wear, Shirt
+item.pattern_career_pants.name=Pattern: Career-wear, Pants
+item.pattern_career_boots.name=Pattern: Career-wear, Boots
+
+item.pattern_formal_helm.name=Pattern: Formal-wear, Head
+item.pattern_formal_chest.name=Pattern: Formal-wear, Shirt
+item.pattern_formal_pants.name=Pattern: Formal-wear, Pants
+item.pattern_formal_boots.name=Pattern: Formal-wear, Boots
+
+item.pattern_beach_helm.name=Pattern: Beach-wear, Head
+item.pattern_beach_chest.name=Pattern: Beach-wear, Shirt
+item.pattern_beach_pants.name=Pattern: Beach-wear, Pants
+item.pattern_beach_boots.name=Pattern: Beach-wear, Boots
+
+item.pattern_sleep_helm.name=Pattern: Sleep-wear, Head
+item.pattern_sleep_chest.name=Pattern: Sleep-wear, Shirt
+item.pattern_sleep_pants.name=Pattern: Sleep-wear, Pants
+item.pattern_sleep_boots.name=Pattern: Sleep-wear, Boots
+
+item.pattern_costume_helm.name=Pattern: Costume-wear, Head
+item.pattern_costume_chest.name=Pattern: Costume-wear, Shirt
+item.pattern_costume_pants.name=Pattern: Costume-wear, Pants
+item.pattern_costume_boots.name=Pattern: Costume-wear, Boots
+
+tile.sandcastle.name=Sand Castle
+item.accessory_bouquetroses.name=Bouquet of Roses
+item.accessory_purse.name=Purse, Brown
+item.accessory_satchelplaid.name=Satchel, Plaid
+item.accessory_briefcase.name=Briefcase
+item.accessory_smartphone.name=Smartphone
+item.accessory_laptopcomputer.name=Laptop Computer
+item.accessory_clipboard.name=Clipboard
+item.accessory_pencil.name=Pencil
+item.accessory_paintbrush.name=Paintbrush
+item.accessory_paintpalette.name=Paint Palette
+item.accessory_hammer.name=Hammer
+item.accessory_wrench.name=Wrench
+item.accessory_meatcleaver.name=Meat Cleaver
+item.accessory_rollingpin.name=Rolling Pin
+item.accessory_sushichopsticks.name=Chop Sticks
+item.accessory_policebadge.name=Police Badge
+item.accessory_giftblue.name=Gift, Blue
+item.accessory_giftred.name=Gift, Red
+item.accessory_plushbunny.name=Plush Bunny
+item.accessory_plushkitty.name=Plush Kitty
+item.accessory_plushteddy.name=Plush Teddy
+item.accessory_beachball.name=Beach Ball
+item.accessory_sandbucket.name=Sand Bucket
+item.accessory_sandshovel.name=Sand Sovel
+item.accessory_ukelele.name=Ukelele
+item.accessory_ringengagement.name=Ring, Engagement
+item.accessory_ringsetwedding.name=Ring Set, Wedding
+item.accessory_fairywand.name=Fairy Wand
+item.accessory_violin.name=Violin
+item.accessory_violinbow.name=Violin Bow
+item.accessory_clarinet.name=Clarinet
+item.accessory_harp.name=Heavenly Harp
+
+item.wardrobe_apronbrown_pants.name=Apron, Brown
+item.wardrobe_apronbutcher_pants.name=Apron, White (Butcher's)
+item.wardrobe_aprongreen_pants.name=Apron, Green
+item.wardrobe_apronwhite_pants.name=Apron, White
+item.wardrobe_angelwings_body.name=Wings, Angel
+item.wardrobe_artist_helm.name=Artist Beret
+item.wardrobe_artist_body.name=Artist Shirt
+item.wardrobe_artist_pants.name=Artist Pants
+item.wardrobe_ballcapblack_helm.name=Baseball Cap, Black
+item.wardrobe_ballcapblue_helm.name=Baseball Cap, Blue
+item.wardrobe_ballcappurple_helm.name=Baseball Cap, Purple
+item.wardrobe_ballcapred_helm.name=Baseball Cap, Red
+item.wardrobe_businesssuit_body.name=Business Suit Jacket, Shirt & Tie
+item.wardrobe_businesssuit_pants.name=Business Suit Pants
+item.wardrobe_construction_helm.name=Construction Hard Hat
+item.wardrobe_construction_body.name=Construction Shirt & Vest
+item.wardrobe_construction_pants.name=Construction Pants
+item.wardrobe_costumechicken_helm.name=Costume, Chicken Head
+item.wardrobe_costumechicken_body.name=Costume, Chicken Vest
+item.wardrobe_costumechicken_shoes.name=Costume, Chicken Shoes
+item.wardrobe_costumecreeper_helm.name=Costume, Creeper Head
+item.wardrobe_costumecreeper_body.name=Costume, Creeper Vest
+item.wardrobe_costumecreeper_pants.name=Costume, Creeper Pants with Feet
+item.wardrobe_costumedinocyan_helm.name=Costume, Dinosour, Cyan, Head 
+item.wardrobe_costumedinocyan_body.name=Costume, Dinosour, Cyan, Shirt
+item.wardrobe_costumedinocyan_pants.name=Costume, Dinosour, Cyan, Pants with Feet
+item.wardrobe_costumedinomagenta_helm.name=Costume, Dinosour, Magenta, Head
+item.wardrobe_costumedinomagenta_body.name=Costume, Dinosour, Magenta, Shirt
+item.wardrobe_costumedinomagenta_pants.name=Costume, Dinosour, Magenta, Pants with Feet
+item.wardrobe_costumedinored_helm.name=Costume, Dinosour, Red, Head
+item.wardrobe_costumedinored_body.name=Costume, Dinosour, Red, Shirt
+item.wardrobe_costumedinored_pants.name=Costume, Dinosour, Red, Pants with Feet
+item.wardrobe_costumehotdog_helm.name=Costume, Hot Dog Head
+item.wardrobe_costumehotdog_body.name=Costume, Hot Dog Shirt
+item.wardrobe_costumehotdog_pants.name=Costume, Hot Dog Pants with Feet
+item.wardrobe_costumenyancat_helm.name=Costume, Nyan Cat Ears
+item.wardrobe_costumenyancat_body.name=Costume, Nyan Cat Shirt
+item.wardrobe_costumenyancat_pants.name=Costume, Nyan Cat Pants with Feet
+item.wardrobe_dresscoral_pants.name=Dress, Coral with Lace Socks
+item.wardrobe_dressgalaxy_helm.name=Dress, Galaxy Head Piece
+item.wardrobe_dressgalaxy_body.name=Dress, Galaxy Shirt
+item.wardrobe_dressgalaxy_pants.name=Dress, Galaxy Skirt
+item.wardrobe_dressglowstone_helm.name=Dress, Glowstone Head Piece
+item.wardrobe_dressglowstone_body.name=Dress, Glowstone Shirt
+item.wardrobe_dressglowstone_pants.name=Dress, Glowstone Skirt
+item.wardrobe_dresslavendar_pants.name=Dress, Lavendar with Lace Socks
+item.wardrobe_dressmint_pants.name=Dress, Mint with Lace Socks
+item.wardrobe_dresswedding_helm.name=Dress, Wedding Veil
+item.wardrobe_dresswedding_body.name=Dress, Wedding Top
+item.wardrobe_dresswedding_pants.name=Dress, Wedding Skirt
+item.wardrobe_dressglowstone_helm.name=Dress, Glowstone Head Piece
+item.wardrobe_dressglowstone_body.name=Dress, Glowstone Top
+item.wardrobe_dressglowstone_pants.name=Dress, Glowstone Skirt
+item.wardrobe_earmuffslavendar_helm.name=Ear Muffs, Lavendar
+item.wardrobe_fairywings_body.name=Wings, Fairy
+item.wardrobe_farmer_helm.name=Farmer Hat
+item.wardrobe_farmer_body.name=Farmer Shirt
+item.wardrobe_farmer_pants.name=Farmer Pants
+item.wardrobe_glassesblack_helm.name=Glasses, Black
+item.wardrobe_glassesred_helm.name=Glasses, Red
+item.wardrobe_hairbowcoral_helm.name=Hair Bow, Coral
+item.wardrobe_hairbowlavendar_helm.name=Hair Bow, Lavendar
+item.wardrobe_hairbowmint_helm.name=Hair Bow, Mint
+item.wardrobe_hairpiecerainbow_helm.name=Hair Piece, Rainbow
+item.wardrobe_hairpiecedaisychain_helm.name=Hair Piece, Daisy Chain
+item.wardrobe_hatmushroom_helm.name=Hat, Mushroom
+item.wardrobe_hatpig_helm.name=Hat, Pig
+item.wardrobe_hatsheep_helm.name=Hat, Sheep
+item.wardrobe_headphones_helm.name=Headphones
+item.wardrobe_longsleevegalaxy_body.name=Long Sleeve Galaxy Shirt
+item.wardrobe_lumberjack_helm.name=Lumberjack Knit Cap
+item.wardrobe_lumberjack_pants.name=Lumberjack Pants
+item.wardrobe_lumberjack_body.name=Lumberjack Shirt
+item.wardrobe_king_helm.name=Royal King Crown
+item.wardrobe_king_body.name=Royal King Body
+item.wardrobe_king_pants.name=Royal King Leggins
+item.wardrobe_queen_helm.name=Royal Queen Crown
+item.wardrobe_queen_body.name=Royal Queen Body
+item.wardrobe_queen_pants.name=Royal Queen Leggins
+item.wardrobe_mage_helm.name=Mage Helm
+item.wardrobe_mage_pants.name=Mage Robe (Legs)
+item.wardrobe_mage_body.name=Mage Robe (Chest)
+item.wardrobe_pajamasblack_body.name=Pajama, Black Plad Shirt
+item.wardrobe_pajamasblack_pants.name=Pajama, Black Plad Pants
+item.wardrobe_pajamasblue_body.name=Pajama, Blue Plad Shirt
+item.wardrobe_pajamasblue_pants.name=Pajama, Blue Plad Pants
+item.wardrobe_pajamasgreen_body.name=Pajama, Green Plad Shirt
+item.wardrobe_pajamasgreen_pants.name=Pajama, Green Plad Pants
+item.wardrobe_pajamasmint-w-flowers_pants.name=Pajama, Pants, Mint with Flowers
+item.wardrobe_pajamasred_body.name=Pajama, Red Plad Shirt
+item.wardrobe_pajamasred_pants.name=Pajama, Red Plad Pants
+item.wardrobe_pajamasyellow-w-orangedots_pants.name=Pajama, Pants, Yellow with Orange Dots
+item.wardrobe_pantsjeans_pants.name=Pants, Jeans
+item.wardrobe_pantskhaki_pants.name=Pants, Khaki
+item.wardrobe_policeofficer_helm.name=Police Officer Hat
+item.wardrobe_policeofficer_body.name=Police Officer Shirt
+item.wardrobe_policeofficer_pants.name=Police Officer Pants
+item.wardrobe_scientist_body.name=Scientist Lab Coat
+item.wardrobe_scientist_helm.name=Scientist Goggles
+item.wardrobe_scientist_pants.name=Scientist Pants
+item.wardrobe_scrubs_helm.name=Medical Scrubs, Head-wrap & Mask
+item.wardrobe_scrubs_body.name=Medical Scrubs, Shirt
+item.wardrobe_scrubs_pants.name=Medical Scrubs, Pants
+item.wardrobe_scrubs_shoes.name=Medical Scrubs, Shoes
+item.wardrobe_slippersbunny_shoes.name=Slippers, Bunny
+item.wardrobe_slipperskitty_shoes.name=Slippers, Kitty
+item.wardrobe_slippersteddy_shoes.name=Slippers, Teddy
+item.wardrobe_shoesblack_shoes.name=Shoes, Black
+item.wardrobe_shoesblue_shoes.name=Shoes, Blue
+item.wardrobe_shoeslime_shoes.name=Shoes, Lime
+item.wardrobe_shoesmagenta_shoes.name=Shoes, Magenta
+item.wardrobe_shoesorange_shoes.name=Shoes, Orange
+item.wardrobe_shoespink_shoes.name=Shoes, Pink
+item.wardrobe_shoespurple_shoes.name=Shoes, Purple
+item.wardrobe_shoesred_shoes.name=Shoes, Red
+item.wardrobe_shoesruby_shoes.name=Ruby Slippers
+item.wardrobe_shoesruby.name=Shoes, Ruby
+item.wardrobe_shoeswhite_shoes.name=Shoes, White
+item.wardrobe_shoesyellow_shoes.name=Shoes, Yellow
+item.wardrobe_shortsblue-w-flowers_pants.name=Shorts, Blue with Flowers
+item.wardrobe_shortsblue-w-whitestripes_pants.name=Shorts, Blue with White Stripes
+item.wardrobe_shortsred-w-whitestripe_pants.name=Shorts, Red with White Stripe
+item.wardrobe_shortswhite-w-reddots_pants.name=Shorts, White with Red Dots
+item.wardrobe_skirtgray_pants.name=Skirt, Gray (Leggings)
+item.wardrobe_skirtruffled_pants.name=Skirt, Ruffled (Leggings)
+item.wardrobe_sushichef_helm.name=Sushi Chef Headband
+item.wardrobe_sushichef_pants.name=Sushi Chef Pants
+item.wardrobe_sushichef_body.name=Sushi Chef Shirt
+item.wardrobe_sweatercyan_body.name=Sweater, Cyan
+item.wardrobe_sweaterlavendar_body.name=Sweater, Lavendar
+item.wardrobe_sweaterteddy_body.name=Sweater, Teddy
+item.wardrobe_swimsuiteblue_pants.name=Swim Suite, Blue (Leggings)
+item.wardrobe_swimsuitemagenta_pants.name=Swim Suite, Magenta (Leggings)
+item.wardrobe_tanktopheart_body.name=Tanktop Shirt, Heart
+item.wardrobe_tanktoporange_body.name=Tanktop Shirt, Orange Style 1
+item.wardrobe_tanktoporange2_body.name=Tanktop Shirt, Orange Style 2 
+item.wardrobe_tanktopwhite_body.name=Tanktop Shirt, White
+item.wardrobe_tanktoppink_body.name=Tanktop Shirt, Pink
+item.wardrobe_teecookie_body.name=Tee Shirt, Cookie
+item.wardrobe_teecreeper_body.name=Tee Shirt, Creeper
+item.wardrobe_teecupcake_body.name=Tee Shirt, Cupcake
+item.wardrobe_teediamond_body.name=Tee Shirt, Diamond
+item.wardrobe_teegrass_body.name=Tee Shirt, Grass
+item.wardrobe_teemushroom_body.name=Tee Shirt, Mushroom
+item.wardrobe_teetiedye_body.name=Tee Shirt, Tie Dyed
+item.wardrobe_tuxedoblack_body.name=Tuxedo, Black Jacket with Shirt & Bow Tie
+item.wardrobe_tuxedoblack_pants.name=Tuxedo, Black Pants
+item.wardrobe_tuxedoglow_body.name=Tuxedo, Glowstone Jacket with Shirt & Bow Tie
+item.wardrobe_tuxedoglow_pants.name=Tuxedo, Glowstone Pants
+item.wardrobe_workboots_shoes.name=Work Boots
