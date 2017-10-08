@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.Item;
 
@@ -23,7 +23,7 @@ public class ItemRockSalt extends Item {
         super();
         this.setMaxStackSize(64);
         this.setUnlocalizedName("rock_salt");
-        this.setCreativeTab(ClothingCraft.tabCore);
+        this.setCreativeTab(ClientProxy.tabCore);
         this.setTextureName(ClothingCraftInfo.MODID + ":rock_salt");
     }
 

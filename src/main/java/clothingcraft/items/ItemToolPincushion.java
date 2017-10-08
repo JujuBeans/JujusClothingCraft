@@ -1,6 +1,6 @@
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
@@ -22,7 +22,7 @@ public class ItemToolPincushion extends Item {
         setMaxStackSize(1);
         setUnlocalizedName("tools_pincushion");
         setTextureName(ClothingCraftInfo.MODID + ":tools_pincushion");
-        setCreativeTab(ClothingCraft.tabTools);
+        setCreativeTab(ClientProxy.tabTools);
     }
 
     /**

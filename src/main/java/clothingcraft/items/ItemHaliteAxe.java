@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.ItemAxe;
 
@@ -25,7 +25,7 @@ public class ItemHaliteAxe extends ItemAxe {
         setMaxStackSize(1);
         setUnlocalizedName("halite_axe");
         setTextureName(ClothingCraftInfo.MODID + ":halite_axe");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 
 }

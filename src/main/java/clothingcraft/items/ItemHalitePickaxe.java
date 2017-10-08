@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.ItemPickaxe;
 
@@ -25,7 +25,7 @@ public class ItemHalitePickaxe extends ItemPickaxe {
         setMaxStackSize(1);
         setUnlocalizedName("halite_pickaxe");
         setTextureName(ClothingCraftInfo.MODID + ":halite_pickaxe");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 
 }

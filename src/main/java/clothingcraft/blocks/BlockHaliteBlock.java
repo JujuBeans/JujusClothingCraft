@@ -3,7 +3,7 @@
  */
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -26,7 +26,7 @@ public class BlockHaliteBlock extends Block {
         this.setBlockTextureName(ClothingCraftInfo.MODID + ":halite_block");
         this.setLightOpacity(225);
         this.setStepSound(Block.soundTypeGravel);
-        this.setCreativeTab(ClothingCraft.tabCore);
+        this.setCreativeTab(ClientProxy.tabCore);
         this.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
         this.setHarvestLevel("pickaxe", 0);
     }

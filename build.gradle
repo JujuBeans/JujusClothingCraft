@@ -17,6 +17,10 @@ buildscript {
 
 apply plugin: 'forge'
 
+// Fix IntelliJ IDEA resources
+apply plugin: 'idea'
+idea { module { inheritOutputDirs = true } }
+
 version = "2.0.0"
 group = "jujuawesomebeans.jujusclothingcraft" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "JujusClothingCraft-1.7.10"
@@ -24,6 +28,9 @@ archivesBaseName = "JujusClothingCraft-1.7.10"
 minecraft {
     version = "1.7.10-10.13.4.1558-1.7.10"
     runDir = "eclipse"
+
+    replaceIn "ClothingCraftInfo.java"
+    replace "@VERSION@", project.version
 }
 
 dependencies {

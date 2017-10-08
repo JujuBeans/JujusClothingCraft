@@ -3,8 +3,9 @@
  */
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
+import clothingcraft.core.CommonProxy;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -33,7 +34,7 @@ public class ClothingCraftCottonBlockList {
                 .setBlockTextureName(ClothingCraftInfo.MODID + ":cotton_bale")
                 .setLightOpacity(126)
                 .setStepSound(Block.soundTypeGrass)
-                .setCreativeTab(ClothingCraft.tabCore);
+                .setCreativeTab(ClientProxy.tabCore);
         cottonBale.setBlockBounds(0.0F, 0.0F, 0.0F, 1.0F, 1.0F, 1.0F);
         //Block.blockRegistry.addObject(192, "cotton_bale", cottonBale);
         cottonBale.setHarvestLevel("pickaxe", 0);
@@ -45,7 +46,7 @@ public class ClothingCraftCottonBlockList {
                 .setStepSound(Block.soundTypeGrass)
                 .setResistance(0.0F)
                 .setBlockName("cottonplant")
-                //.setCreativeTab(ClothingCraft.tabCore)
+//                .setCreativeTab(ClientProxy.tabCore)
                 .setBlockTextureName(ClothingCraftInfo.MODID + ":cottonplant");
         GameRegistry.registerBlock(cottonPlant, "cottonplant");
 
@@ -55,23 +56,22 @@ public class ClothingCraftCottonBlockList {
                 .setStepSound(Block.soundTypeGrass)
                 .setResistance(0.0F)
                 .setBlockName("cottonwildplant")
-                //.setCreativeTab(ClothingCraft.tabCore)
+//                .setCreativeTab(ClientProxy.tabCore)
                 .setBlockTextureName(ClothingCraftInfo.MODID + ":cottonwildplant");
         GameRegistry.registerBlock(cottonWildPlant, "cottonwildplant");
     }
 
     public static void init() {
         GameRegistry.addRecipe(new ItemStack(cottonBale, 1),
-                new Object[]{"012", "345", "678",
-                        Character.valueOf('0'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('1'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('2'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('3'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('4'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('5'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('6'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('7'), new ItemStack(ClothingCraft.cotton, 1),
-                        Character.valueOf('8'), new ItemStack(ClothingCraft.cotton, 1),
-                });
+                "012", "345", "678",
+                '0', new ItemStack(CommonProxy.cotton, 1),
+                '1', new ItemStack(CommonProxy.cotton, 1),
+                '2', new ItemStack(CommonProxy.cotton, 1),
+                '3', new ItemStack(CommonProxy.cotton, 1),
+                '4', new ItemStack(CommonProxy.cotton, 1),
+                '5', new ItemStack(CommonProxy.cotton, 1),
+                '6', new ItemStack(CommonProxy.cotton, 1),
+                '7', new ItemStack(CommonProxy.cotton, 1),
+                '8', new ItemStack(CommonProxy.cotton, 1));
     }
 }

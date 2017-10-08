@@ -1,7 +1,7 @@
 package clothingcraft.items;
 
 import clothingcraft.blocks.BlockCottonPlant;
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 
@@ -16,6 +16,6 @@ public class ItemCottonSeeds extends RecipeItemSeeds {
         super(cottonPlant, farmland);
         setUnlocalizedName("cotton_harvested");
         setTextureName(ClothingCraftInfo.MODID + ":cotton_harvested");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 }

@@ -1,6 +1,3 @@
-/**
- *
- */
 package clothingcraft.gui;
 
 import net.minecraft.item.ItemStack;
@@ -14,7 +11,7 @@ import java.util.Map;
  * Sorting comparator for displayed Items in a custom creative tab
  *
  * @author NinjaSoldier40
- * @see https://gist.github.com/Choonster/42602d38a94b915fc0b2
+ * @see <a href="https://gist.github.com/Choonster/42602d38a94b915fc0b2">https://gist.github.com/Choonster/42602d38a94b915fc0b2</a>
  * @since 02/12/2017 12:23 PM (-07:00 GMT)
  */
 public class ItemOreSorter implements Comparator<ItemStack> {

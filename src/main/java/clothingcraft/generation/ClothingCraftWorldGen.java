@@ -21,7 +21,6 @@ public class ClothingCraftWorldGen implements IWorldGenerator {
 
     }
 
-
     @Override
     public void generate(Random random, int chunkX, int chunkZ, World world, IChunkProvider chunkGenerator,
                          IChunkProvider chunkProvider) {
@@ -35,10 +34,8 @@ public class ClothingCraftWorldGen implements IWorldGenerator {
                 runPlantGenerator(generatorCottonWildPlant, world, random, chunkX, chunkZ);
                 break;
             case -1: //Nether
-
                 break;
             case 1: //End
-
                 break;
         }
     }

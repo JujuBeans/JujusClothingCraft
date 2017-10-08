@@ -4,11 +4,11 @@
 package clothingcraft.items;
 
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
-import clothingcraft.items.ClothingCraftFabricItemList.COLORS;
-import clothingcraft.items.ClothingCraftPatternItemList.CATEGORY;
-import clothingcraft.items.ClothingCraftPatternItemList.PURPOSE;
+import clothingcraft.items.ClothingCraftFabricItemList.Colors;
+import clothingcraft.items.ClothingCraftPatternItemList.Category;
+import clothingcraft.items.ClothingCraftPatternItemList.Purpose;
 import clothingcraft.util.RecipeUtil;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Items;
@@ -95,9 +95,9 @@ public class ClothingCraftAccessoriesItemList {
         GameRegistry.addRecipe(new ItemStack(
                         getAccessoryItem("beachball"), 1),
                 RecipeUtil.createRecipeObject(new Item[]{
-                        null, getFabric(COLORS.white), null,
-                        getFabric(COLORS.bluedark), Items.slime_ball, getFabric(COLORS.red),
-                        null, getFabric(COLORS.yellow), null
+                        null, getFabric(Colors.white), null,
+                        getFabric(Colors.bluedark), Items.slime_ball, getFabric(Colors.red),
+                        null, getFabric(Colors.yellow), null
                 })
         );
 
@@ -117,7 +117,7 @@ public class ClothingCraftAccessoriesItemList {
         Item result = (Item) new Item()
                 .setMaxStackSize(64)
                 .setUnlocalizedName(ensurePrefix("accessory_", itemKey))
-                .setCreativeTab(ClothingCraft.tabAccessories)
+                .setCreativeTab(ClientProxy.tabAccessories)
                 .setTextureName(ClothingCraftInfo.MODID + ":" + ensurePrefix("accessory_", itemKey));
         accessoryItemMap.put("accessory_" + itemKey, result);
         GameRegistry.registerItem(result, ensurePrefix("accessory_", itemKey));
@@ -163,7 +163,7 @@ public class ClothingCraftAccessoriesItemList {
      * @param enumPurpose  ClothingCraftPatternItemList.PURPOSE enumeration element
      * @return associated sewing pattern item, null if none exists
      */
-    public static Item getPattern(CATEGORY enumCategory, PURPOSE enumPurpose) {
+    public static Item getPattern(Category enumCategory, Purpose enumPurpose) {
         return ClothingCraftPatternItemList.patternsItemMap.get(enumCategory).get(enumPurpose);
     }
 
@@ -173,7 +173,7 @@ public class ClothingCraftAccessoriesItemList {
      * @param enumColor ClothingCraftFabricItemList.COLORS enumeration element
      * @return associated sewing fabric item, null if none exists.
      */
-    public static Item getFabric(COLORS enumColor) {
+    public static Item getFabric(Colors enumColor) {
         return ClothingCraftFabricItemList.fabricItemsMap.get(enumColor);
     }
 }

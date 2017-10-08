@@ -1,6 +1,6 @@
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
@@ -22,7 +22,7 @@ public class ItemToolMeasuringTape extends Item {
         setMaxStackSize(1);
         setUnlocalizedName("tools_measuring_tape");
         setTextureName(ClothingCraftInfo.MODID + ":tools_measuring_tape");
-        setCreativeTab(ClothingCraft.tabTools);
+        setCreativeTab(ClientProxy.tabTools);
     }
 
     /**

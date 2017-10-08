@@ -3,8 +3,8 @@
  */
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
 import clothingcraft.core.ClothingCraftInfo;
+import clothingcraft.core.CommonProxy;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -45,14 +45,14 @@ public class BlockCottonPlant extends RecipeBlockCrops {
      * @see clothingcraft.blocks.RecipeBlockCrops#getItemDropSeeds()
      */
     public Item getItemDropSeeds() {
-        return ClothingCraft.cottonSeeds;
+        return CommonProxy.cottonSeeds;
     }
 
     /**
      * @see clothingcraft.blocks.RecipeBlockCrops#getItemDropProduce()
      */
     public Item getItemDropProduce() {
-        return ClothingCraft.cotton;
+        return CommonProxy.cotton;
     }
 
     @Override

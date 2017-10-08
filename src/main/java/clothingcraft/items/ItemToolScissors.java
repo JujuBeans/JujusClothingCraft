@@ -1,6 +1,6 @@
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
@@ -22,7 +22,7 @@ public class ItemToolScissors extends ItemShears {
         setMaxStackSize(1);
         setUnlocalizedName("tools_scissors");
         setTextureName(ClothingCraftInfo.MODID + ":tools_scissors");
-        setCreativeTab(ClothingCraft.tabTools);
+        setCreativeTab(ClientProxy.tabTools);
     }
 
     /**

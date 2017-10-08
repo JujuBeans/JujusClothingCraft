@@ -1,7 +1,7 @@
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
 import clothingcraft.core.ClothingCraftInfo;
+import clothingcraft.core.CommonProxy;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -79,7 +79,7 @@ public class BlockCottonWildPlant extends BlockCrops implements IPlantable {
      * @see clothingcraft.blocks.RecipeBlockCrops#getItemDropSeeds()
      */
     public Item getItemDropSeeds() {
-        return ClothingCraft.cottonSeeds;
+        return CommonProxy.cottonSeeds;
     }
 
     @Override
@@ -92,7 +92,7 @@ public class BlockCottonWildPlant extends BlockCrops implements IPlantable {
      * @see clothingcraft.blocks.RecipeBlockCrops#getItemDropProduce()
      */
     public Item getItemDropProduce() {
-        return ClothingCraft.cotton;
+        return CommonProxy.cotton;
     }
 
     @Override

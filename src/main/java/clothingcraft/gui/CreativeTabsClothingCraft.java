@@ -1,6 +1,3 @@
-/**
- *
- */
 package clothingcraft.gui;
 
 import cpw.mods.fml.relauncher.Side;

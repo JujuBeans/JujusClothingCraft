@@ -1,6 +1,6 @@
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
@@ -14,7 +14,7 @@ public class ItemDyedFabric extends Item {
         setMaxStackSize(64);
         setUnlocalizedName("fabric_" + unlocalizedName);
         setTextureName(ClothingCraftInfo.MODID + ":fabric_" + unlocalizedName);
-        setCreativeTab(ClothingCraft.tabMaterials);
+        setCreativeTab(ClientProxy.tabMaterials);
     }
 
     public int getItemEnchantability() {

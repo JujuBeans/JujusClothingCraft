@@ -1,6 +1,6 @@
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import clothingcraft.items.ClothingCraftHaliteItemList;
 import net.minecraft.block.Block;
@@ -21,7 +21,7 @@ public class BlockHaliteOre extends Block {
     private int most_quantity;
 
     public BlockHaliteOre() {
-        this("halite_ore", Material.rock, ClothingCraft.tabCore, ClothingCraftHaliteItemList.rockSalt, 2, 2, 4);
+        this("halite_ore", Material.rock, ClientProxy.tabCore, ClothingCraftHaliteItemList.rockSalt, 2, 2, 4);
     }
 
     protected BlockHaliteOre(String unlocalizedName, Material mat, CreativeTabs tab, Item drop, int meta, int least_quantity, int most_quantity) {

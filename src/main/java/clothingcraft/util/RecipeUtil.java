@@ -1,6 +1,3 @@
-/**
- *
- */
 package clothingcraft.util;
 
 import net.minecraft.item.Item;

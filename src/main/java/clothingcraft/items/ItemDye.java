@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
@@ -32,7 +32,7 @@ public class ItemDye extends Item {
         EnumHelper.addToolMaterial("DYE_" + unlocalizedName.toUpperCase(), 1, 12, 4F, 5, 2);
         setUnlocalizedName("dye_" + unlocalizedName);
         setTextureName(ClothingCraftInfo.MODID + ":dye_" + unlocalizedName.toLowerCase());
-        setCreativeTab(ClothingCraft.tabMaterials);
+        setCreativeTab(ClientProxy.tabMaterials);
         setMaxDamage(12);
         setMaxStackSize(1);
     }

@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.ItemSword;
 
@@ -25,7 +25,7 @@ public class ItemHaliteSword extends ItemSword {
         setMaxStackSize(1);
         setUnlocalizedName("halite_sword");
         setTextureName(ClothingCraftInfo.MODID + ":halite_sword");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 
 }

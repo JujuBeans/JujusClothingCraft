@@ -1,6 +1,6 @@
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -52,7 +52,7 @@ public class ItemWardrobeArmor extends ItemArmor {
         this.textureName = armorTextureName;
         this.itemTextureName = itemTextureName;
         this.setUnlocalizedName("wardrobe_" + unlocalizedName + getTextureSuffix(armorType));
-        this.setCreativeTab(ClothingCraft.tabWardrobe);
+        this.setCreativeTab(ClientProxy.tabWardrobe);
     }
 
     public static String getTextureSuffix(int armorType) {

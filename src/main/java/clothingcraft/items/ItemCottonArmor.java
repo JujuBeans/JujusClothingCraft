@@ -3,8 +3,8 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
 import clothingcraft.core.ClothingCraftInfo;
+import clothingcraft.core.CommonProxy;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -41,7 +41,7 @@ public class ItemCottonArmor extends ItemArmor {
 
     @Override
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack) {
-        if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem().equals(ClothingCraft.cottonArmorBoots)) {
+        if (player.getCurrentArmor(1) != null && player.getCurrentArmor(1).getItem() == CommonProxy.cottonArmorBoots) {
             player.addPotionEffect(new PotionEffect(Potion.moveSpeed.id, 40));
         }
     }

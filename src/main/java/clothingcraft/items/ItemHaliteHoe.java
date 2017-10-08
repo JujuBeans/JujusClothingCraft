@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.ItemHoe;
 
@@ -25,7 +25,7 @@ public class ItemHaliteHoe extends ItemHoe {
         setMaxStackSize(1);
         setUnlocalizedName("halite_hoe");
         setTextureName(ClothingCraftInfo.MODID + ":halite_hoe");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 
 }

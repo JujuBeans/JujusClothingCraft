@@ -42,20 +42,20 @@ public class ClothingCraftPatternItemList {
      * Item patternCasualHelm = patternsItemMap.get(CATEGORY.casual).get(PURPOSE.helm);
      * </PRE>
      */
-    public static LinkedHashMap<CATEGORY, LinkedHashMap<PURPOSE, Item>> patternsItemMap =
-            new LinkedHashMap<ClothingCraftPatternItemList.CATEGORY, LinkedHashMap<PURPOSE, Item>>();
+    public static LinkedHashMap<Category, LinkedHashMap<Purpose, Item>> patternsItemMap =
+            new LinkedHashMap<Category, LinkedHashMap<Purpose, Item>>();
 
     ;
 
     public static void preInit() {
-        for (CATEGORY enumCategory : CATEGORY.values()) {
-            for (PURPOSE enumPurpose : PURPOSE.values()) {
+        for (Category enumCategory : Category.values()) {
+            for (Purpose enumPurpose : Purpose.values()) {
                 String unlocalizedName = "pattern_" + enumCategory.name() + "_" + enumPurpose.name();
                 Item patternItem = (Item) new ItemPattern(unlocalizedName);
                 GameRegistry.registerItem(patternItem, unlocalizedName);
                 // populate the patternsItemMap
                 if (patternsItemMap.get(enumCategory) == null) {
-                    patternsItemMap.put(enumCategory, new LinkedHashMap<PURPOSE, Item>());
+                    patternsItemMap.put(enumCategory, new LinkedHashMap<Purpose, Item>());
                 }
                 patternsItemMap.get(enumCategory).put(enumPurpose, patternItem);
             }
@@ -65,8 +65,8 @@ public class ClothingCraftPatternItemList {
     ;
 
     public static void init() {
-        for (CATEGORY enumCategory : CATEGORY.values()) {
-            for (PURPOSE enumPurpose : PURPOSE.values()) {
+        for (Category enumCategory : Category.values()) {
+            for (Purpose enumPurpose : Purpose.values()) {
                 Item item = patternsItemMap.get(enumCategory).get(enumPurpose);
                 // boots recipe
                 ItemStack stack = new ItemStack(item, 1);
@@ -89,7 +89,7 @@ public class ClothingCraftPatternItemList {
      * @param enumPurpose
      * @return
      */
-    public static Object[] getRecipe(CATEGORY enumCategory, PURPOSE enumPurpose) {
+    public static Object[] getRecipe(Category enumCategory, Purpose enumPurpose) {
         Object[] result = null;
 
         ItemStack specialIngredient = null;
@@ -119,34 +119,34 @@ public class ClothingCraftPatternItemList {
         switch (enumPurpose) {
             case helm:
                 result = new Object[]{"012", "3XX", "XXX",
-                        Character.valueOf('0'), new ItemStack(Items.paper, 1),
-                        Character.valueOf('1'), new ItemStack(Items.leather_helmet, 1),
-                        Character.valueOf('2'), new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
-                        Character.valueOf('3'), specialIngredient,
+                        '0', new ItemStack(Items.paper, 1),
+                        '1', new ItemStack(Items.leather_helmet, 1),
+                        '2', new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
+                        '3', specialIngredient,
                 };
                 break;
             case chest:
                 result = new Object[]{"012", "3XX", "XXX",
-                        Character.valueOf('0'), new ItemStack(Items.paper, 1),
-                        Character.valueOf('1'), new ItemStack(Items.leather_chestplate, 1),
-                        Character.valueOf('2'), new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
-                        Character.valueOf('3'), specialIngredient,
+                        '0', new ItemStack(Items.paper, 1),
+                        '1', new ItemStack(Items.leather_chestplate, 1),
+                        '2', new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
+                        '3', specialIngredient,
                 };
                 break;
             case pants:
                 result = new Object[]{"012", "3XX", "XXX",
-                        Character.valueOf('0'), new ItemStack(Items.paper, 1),
-                        Character.valueOf('1'), new ItemStack(Items.leather_leggings, 1),
-                        Character.valueOf('2'), new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
-                        Character.valueOf('3'), specialIngredient,
+                        '0', new ItemStack(Items.paper, 1),
+                        '1', new ItemStack(Items.leather_leggings, 1),
+                        '2', new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
+                        '3', specialIngredient,
                 };
                 break;
             case boots:
                 result = new Object[]{"012", "3XX", "XXX",
-                        Character.valueOf('0'), new ItemStack(Items.paper, 1),
-                        Character.valueOf('1'), new ItemStack(Items.leather_boots, 1),
-                        Character.valueOf('2'), new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
-                        Character.valueOf('3'), specialIngredient,
+                        '0', new ItemStack(Items.paper, 1),
+                        '1', new ItemStack(Items.leather_boots, 1),
+                        '2', new ItemStack(ClothingCraftToolsItemList.sewingScissors, 1),
+                        '3', specialIngredient,
                 };
                 break;
             default:
@@ -155,7 +155,7 @@ public class ClothingCraftPatternItemList {
         return result;
     }
 
-    public static enum CATEGORY {beach, career, casual, costume, formal, sleep}
+    public enum Category {beach, career, casual, costume, formal, sleep}
 
-    public static enum PURPOSE {helm, chest, pants, boots}
+    public enum Purpose {helm, chest, pants, boots}
 }

@@ -1,6 +1,6 @@
 package clothingcraft.blocks;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -19,7 +19,7 @@ public class BlockSandCastle extends Block {
         this.setBlockName("sandcastle");
         this.setBlockTextureName(ClothingCraftInfo.MODID + ":sandcastle");
         this.setStepSound(Block.soundTypeSand);
-        this.setCreativeTab(ClothingCraft.tabAccessories);
+        this.setCreativeTab(ClientProxy.tabAccessories);
         this.setHarvestLevel("shovel", 0);
         this.setBlockBounds(
                 0.30000000000000004F,

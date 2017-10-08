@@ -3,7 +3,7 @@
  */
 package clothingcraft.items;
 
-import clothingcraft.core.ClothingCraft;
+import clothingcraft.client.ClientProxy;
 import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.item.ItemSpade;
 
@@ -25,7 +25,7 @@ public class ItemHaliteShovel extends ItemSpade {
         setMaxStackSize(1);
         setUnlocalizedName("halite_shovel");
         setTextureName(ClothingCraftInfo.MODID + ":halite_shovel");
-        setCreativeTab(ClothingCraft.tabCore);
+        setCreativeTab(ClientProxy.tabCore);
     }
 
 }
