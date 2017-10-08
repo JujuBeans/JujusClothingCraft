@@ -1,11 +1,7 @@
 /**
- * 
+ *
  */
 package clothingcraft.gui;
-
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
 
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,53 +10,53 @@ import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
 
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
 /**
- * Contains all creative tabs for the mod that 
+ * Contains all creative tabs for the mod that
  * show up on the Graphical User Interface (GUI)
- * 
+ * <p>
  * 0 = Core [
- * 		Halite (ore, block, ingot, dust, tools, sword, armor), 
- * 		Cotton (plant, seeds, bale)
- *     ]
+ * Halite (ore, block, ingot, dust, tools, sword, armor),
+ * Cotton (plant, seeds, bale)
+ * ]
  * 1 = Materials [Dyes, Fabric]
  * 2 = Accessories [Sand-castle, Ring, Clipboard, et al]
  * 3 = Tools [
- * 		Needle and Thread, 
- * 		Scissors, Knitting Needles, 
- * 		Measuring Tape, Pin-cushion, 
- * 		Patterns
- * 	   ]
- * 4 = Wardrobe [Outfits, Head-gear, et al] 
- * 
+ * Needle and Thread,
+ * Scissors, Knitting Needles,
+ * Measuring Tape, Pin-cushion,
+ * Patterns
+ * ]
+ * 4 = Wardrobe [Outfits, Head-gear, et al]
+ *
  * @author JujuAwesomeBeans
  * @author NinjaSoldier40
  * @since 02/05/2017 10:42 AM
- *
  */
-public class CreativeTabsClothingCraft extends CreativeTabs 
-{
-	/* src: https://gist.github.com/Choonster/42602d38a94b915fc0b2 */
-	private Comparator<ItemStack> itemSorter = new ItemOreSorter();
-	
-	public CreativeTabsClothingCraft(String index) 
-	{
-		super(index);
-	}
+public class CreativeTabsClothingCraft extends CreativeTabs {
+    /* src: https://gist.github.com/Choonster/42602d38a94b915fc0b2 */
+    private Comparator<ItemStack> itemSorter = new ItemOreSorter();
 
-	@Override
-	@SideOnly(Side.CLIENT)
-	public Item getTabIconItem() 
-	{
-		return Item.getItemFromBlock(Blocks.sapling);
-	}
-	
-	@Override
-	public void displayAllReleventItems(List items) {
-		super.displayAllReleventItems(items);
+    public CreativeTabsClothingCraft(String index) {
+        super(index);
+    }
 
-		// Sort the item list using the ItemSorter instance
-		Collections.sort(items, itemSorter);
-	}
+    @Override
+    @SideOnly(Side.CLIENT)
+    public Item getTabIconItem() {
+        return Item.getItemFromBlock(Blocks.sapling);
+    }
+
+    @Override
+    public void displayAllReleventItems(List items) {
+        super.displayAllReleventItems(items);
+
+        // Sort the item list using the ItemSorter instance
+        Collections.sort(items, itemSorter);
+    }
 
 //	/*
 //	 * TABS
@@ -110,5 +106,5 @@ public class CreativeTabsClothingCraft extends CreativeTabs
 //					return ClothingCraft.bollsCotton;
 //				}
 //			};
-	
+
 }

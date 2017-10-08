@@ -6,16 +6,13 @@ import clothingcraft.core.ClothingCraftInfo;
 import net.minecraft.block.Block;
 
 /**
- * 
  * @author JujuAwesomeBeans
  * @author NinjaSoldier40
  * @since 02/05/2017 09:01 PM
  */
-public class ItemCottonSeeds extends RecipeItemSeeds 
-{
+public class ItemCottonSeeds extends RecipeItemSeeds {
 
-    public ItemCottonSeeds(BlockCottonPlant cottonPlant, Block farmland) 
-    {
+    public ItemCottonSeeds(BlockCottonPlant cottonPlant, Block farmland) {
         super(cottonPlant, farmland);
         setUnlocalizedName("cotton_harvested");
         setTextureName(ClothingCraftInfo.MODID + ":cotton_harvested");
